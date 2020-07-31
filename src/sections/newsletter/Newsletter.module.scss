@@ -1,0 +1,33 @@
+.Newsletter{
+    background-color: #dcfaec;
+    padding: 8% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    font-family: 'Rubik-Black';
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    // padding: 5% 50%;
+}
+@media(min-width:765px){
+    .Newsletter{
+        padding: 12% 10%;
+    }
+    .Buttons{
+        width: 60%;
+        
+    }
+}

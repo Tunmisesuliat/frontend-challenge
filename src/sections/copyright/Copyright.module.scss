@@ -1,0 +1,29 @@
+.Copyright {
+  background-color: #000c2c;
+  padding: 3% 5% 3% 7%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+}
+.Icons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  div {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+@media (min-width: 765px) {
+  .Icons {
+    width: 15%;
+  }
+}

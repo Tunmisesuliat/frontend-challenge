@@ -1,0 +1,22 @@
+.Mentors{
+    width: 100vw;
+    background-color:#000c2d;
+    padding-top: 5%;
+    font-family: 'Roboto-Bold';
+   
+    .Wrapper{
+        color: white;
+        font-weight: bold;
+        // font-size: 3rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        text-emphasis: center;
+        margin-top: -2%;
+    }
+}
+@media (min-width: 765px){
+    .Wrapper{
+        font-size: 5rem;  
+    }  
+}

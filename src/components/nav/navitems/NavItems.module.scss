@@ -1,0 +1,22 @@
+.NavItems{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    
+
+    // align-items: flex-end;
+    box-sizing: border-box;
+}
+@media(min-width:765px){
+    .NavItems{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50vw;
+        padding-right: 15%;
+    
+    }
+}

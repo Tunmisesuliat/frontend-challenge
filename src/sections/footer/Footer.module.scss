@@ -1,0 +1,27 @@
+.Footer{
+    box-sizing: border-box;
+    background-color: #000c2c;
+    color: white;  
+    grid-template-rows: 1fr;
+    grid-gap: 15%;   
+    padding: 5%;
+}
+.Leftfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.Rightfooter{
+    display: flex;
+
+}
+.Logo{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+@media(min-width: 765px){
+    .Footer{
+        display: grid;
+        grid-template-columns: 40% 40%; 
+        padding: 5% 7%;
+    }
+}

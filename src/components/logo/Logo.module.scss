@@ -1,0 +1,36 @@
+.Logo{
+    background-color: transparent;
+    width:2.5rem;
+    height: 2.5rem;
+    display: grid;
+    grid-column-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    padding: 0.2rem;
+    
+    .First{
+        background-color:#20de86;
+        width: 90%;
+        height: 90%;
+        border-top-left-radius: 5px;
+        
+    }
+    .Second{
+        background-color:#20de86;
+        width: 90%;
+        height: 90%;
+        border-top-right-radius: 5px;
+    }
+    .Third{
+        background-color:#20de86;
+        width: 90%;
+        height: 90%;
+        border-bottom-left-radius: 5px;
+    }
+    .Fourth{
+        background-color:#20de86;
+        width: 90%;
+        height: 90%;
+        border-bottom-right-radius: 5px;
+    }
+}

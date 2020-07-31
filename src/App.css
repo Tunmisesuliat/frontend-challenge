@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto-Bold'), url('./fonts/Roboto/RobotoCondensed-Bold.ttf') format('ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Roboto-Regular'), url('./fonts/Roboto/RobotoCondensed-Regular.ttf') format('ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto-Light'), url('./fonts/Roboto/RobotoCondensed-Light.ttf') format('ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+@font-face {
+  font-family: 'Rubik-Black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rubik-Black'), url('./fonts/Rubik/Rubik-Black.ttf') format('ttf');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Rubik-Regular';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rubik-Regular'), url('./fonts/Rubik/Rubik-Regular.ttf') format('ttf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Rubik-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Rubik-Light'), url('./fonts/Rubik/Rubik-Light.ttf') format('ttf');
 }
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+

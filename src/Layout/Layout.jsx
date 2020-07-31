@@ -25,7 +25,7 @@ const Layout = () => {
            <Header toggleNav = {toggled}/>        
            <Main />
            <WhatWeDo />
-           <Mentors/>
+           <div className={classes.Mentors}><Mentors/></div>
            <Resources text="Resources" resource="Resources for student artists"/>
            <Resources  resource="Resources for graduate artists"/>
            <Newsletter />

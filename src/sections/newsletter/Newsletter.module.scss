@@ -8,7 +8,7 @@
     font-family: 'Rubik-Black';
     h1{
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 2rem;
         font-weight: bold;
     }
     p{
@@ -25,7 +25,13 @@
 @media(min-width:765px){
     .Newsletter{
         padding: 12% 10%;
+        h1{
+            text-align: center;
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
     }
+    
     .Buttons{
         width: 60%;
         

@@ -13,7 +13,7 @@ const Main = () => {
                 <div className={classes.Pagination}><PaginationNext /></div>
             </div>
             <div className={classes.Image}>
-                <img src={Smiling} alt="smiling" />
+                <img src={Smiling} alt="smiling" data-aos = "fade-left" data-aos-duration="3000"/>
             </div>
         </div>
     )

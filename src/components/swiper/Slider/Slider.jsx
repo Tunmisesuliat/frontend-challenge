@@ -83,8 +83,7 @@ const Slider = () => {
       navigation={{ clickable: true ,  prevEl :"#js-prev1", nextEl:"#js-next1"}}
       loop={true}
       fadeEffect={{ crossFade: true }}
-      // pagination={{ clickable: true }}
-      // scrollbar={{ draggable: true }}
+      
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >

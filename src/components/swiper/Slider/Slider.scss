@@ -9,7 +9,7 @@
 }
 .swiper-wrapper {
   width: 100vw;
-  height: 40rem;
+  // height: 40rem;
   background-color: #000c2d;
   position: relative;
   // display: flex;
@@ -72,12 +72,13 @@
 }
 .Text {
   margin-top: 15%;
+  padding-bottom: 30px;
   h1 {
     font-size: 2.5rem;
     color: #20de86;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: white;
   }
 }
@@ -88,7 +89,7 @@
   position: absolute;
 //   top: 60%;
 //   left: 26%;
-top: 47%;
+top: 57%;
   left: 33%;
   justify-self: center;
   // top: 50%;
@@ -97,6 +98,14 @@ top: 47%;
   .Text {
     margin-top: 30%;
   }
+  .swiper-wrapper {
+    width: 100vw;
+    height: 30rem;
+    background-color: #000c2d;
+    position: relative;
+    // display: flex;
+    // justify-content: center;
+  }
 }
 @media (max-width: 764px) {
   .pagination {
@@ -104,7 +113,7 @@ top: 47%;
     justify-content: space-between;
     width: 20%;
     position: absolute;
-    top: 27%;
+    top: 35%;
     left: 25%;
     justify-self: center;
   }
@@ -117,7 +126,7 @@ top: 47%;
       color: #20de86;
     }
     p {
-      font-size: 18px;
+      font-size: 22px;
       color: white;
     }
     .swiper-wrapper {

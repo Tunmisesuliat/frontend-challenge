@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'Rubik-Black';
-  font-style: normal;
+  font-style: bold;
   font-weight: 900;
   src: local('Rubik-Black'), url('./fonts/Rubik/Rubik-Black.ttf') format('ttf');
 }

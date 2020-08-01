@@ -83,6 +83,25 @@ const Slider = () => {
       navigation={{ clickable: true ,  prevEl :"#js-prev1", nextEl:"#js-next1"}}
       loop={true}
       fadeEffect={{ crossFade: true }}
+      centeredSlides={true}
+      breakpoints= {{
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 20
+        }}
+      }
+    
       
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}

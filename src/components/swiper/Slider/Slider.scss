@@ -59,7 +59,7 @@
   backdrop-filter: blur(10px);
   filter: brightness(50%);
 }
-.swiper-slide-next{
+.swiper-slide-active{
     -webkit-backdrop-filter: none;
   backdrop-filter: none;
   filter: none;
@@ -93,20 +93,25 @@ top: 47%;
   justify-self: center;
   // top: 50%;
 }
+@media (max-width: 500px) {
+  .Text {
+    margin-top: 55%;
+  }
+}
 @media (max-width: 764px) {
   .pagination {
     display: flex;
     justify-content: space-between;
     width: 20%;
     position: absolute;
-    top: 20%;
-    left: 32%;
+    top: 27%;
+    left: 25%;
     justify-self: center;
   }
   
 }
 .Text {
-    // margin-top: 35%;
+    // margin-top: 20%;
     h1 {
       font-size: 2rem;
       color: #20de86;
